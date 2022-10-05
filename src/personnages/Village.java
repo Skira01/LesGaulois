@@ -28,7 +28,8 @@ public class Village {
 	}
 	
 	public void main(String[] args) {
-		new Village(nom = "village des irreductibles", nbVillageois = 30);
+		Village village = new Village(nom = "village des irreductibles", nbVillageois = 30);
+	
 	}
 
 	
