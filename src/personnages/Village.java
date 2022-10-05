@@ -27,9 +27,10 @@ public class Village {
 	this.chef = chef;
 	}
 	
-	public main(tring) {
-		village(nom = "village des irreductibles", nbVillageoisMaximum = 30)
+	public void main(String[] args) {
+		new Village(nom = "village des irreductibles", nbVillageois = 30);
 	}
+
 	
 	public String getNom() {
 	return nom;
